@@ -14,17 +14,6 @@ repositories {
 	maven { url 'https://maven.wispforest.io' }
 }
 
-loom {
-    splitEnvironmentSourceSets()
-
-	mods {
-		"owolib-annoyance-remover" {
-			sourceSet sourceSets.main
-		}
-	}
-
-}
-
 dependencies {
 	// To change the versions see the gradle.properties file
 	minecraft "com.mojang:minecraft:${project.minecraft_version}"
