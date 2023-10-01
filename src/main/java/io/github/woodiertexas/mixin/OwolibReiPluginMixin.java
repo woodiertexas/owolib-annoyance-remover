@@ -1,6 +1,8 @@
 package io.github.woodiertexas.mixin;
 
+import com.mojang.blaze3d.platform.GlStateManager;
 import io.wispforest.owo.compat.rei.OwoReiPlugin;
+import io.wispforest.owo.ui.util.ScissorStack;
 import net.minecraft.client.gui.screen.Screen;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Overwrite;
@@ -13,6 +15,9 @@ public class OwolibReiPluginMixin {
 	 */
 	@Overwrite(remap = false)
 	private static void renderOverlay(Screen screen, Runnable renderFunction) {
-		// no op
+		ScissorStack.pushDirect(0, 0, Integer.MAX_VALUE, Integer.MAX_VALUE);
+		renderFunction.run();
+		GlStateManager._enableScissorTest();
+		ScissorStack.pop();
 	}
 }
