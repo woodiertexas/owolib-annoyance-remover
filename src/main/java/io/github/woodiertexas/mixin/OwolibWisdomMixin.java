@@ -1,15 +1,17 @@
 package io.github.woodiertexas.mixin;
 
-import net.minecraft.server.MinecraftServer;
+import io.wispforest.owo.util.Wisdom;
 import org.spongepowered.asm.mixin.Mixin;
-import org.spongepowered.asm.mixin.injection.At;
-import org.spongepowered.asm.mixin.injection.Inject;
-import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
+import org.spongepowered.asm.mixin.Overwrite;
 
-@Mixin(MinecraftServer.class)
+@Mixin(Wisdom.class)
 public class OwolibWisdomMixin {
-	@Inject(at = @At("HEAD"), method = "loadWorld")
-	private void init(CallbackInfo info) {
-		// This code is injected into the start of MinecraftServer.loadWorld()V
+	/**
+	 * @author woodiertexas
+	 * @reason owolib's Wisdom.class has advertisements for other mods.
+	 */
+	@Overwrite(remap = false)
+	public static void spread() {
+		// no op
 	}
 }
