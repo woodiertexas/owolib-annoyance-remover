@@ -5,7 +5,7 @@
 	"name": "owo-lib Annoyance Remover",
 	"description": "Removes various owo-lib annoyances.",
 	"authors": [
-		"Me!"
+		"woodiertexas"
 	],
 	"contact": {
 		"homepage": "",
@@ -21,10 +21,6 @@
 	"depends": {
 		"fabricloader": ">=0.14.22",
 		"minecraft": ">=1.20.1",
-		"java": ">=17",
-		"fabric-api": "*"
-	},
-	"suggests": {
-		"another-mod": "*"
+		"java": ">=17"
 	}
 }
