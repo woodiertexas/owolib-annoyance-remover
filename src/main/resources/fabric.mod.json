@@ -11,7 +11,7 @@
 		"homepage": "",
 		"sources": "https://github.com/woodiertexas/owolib-annoyance-remover"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/owolib-annoyance-remover/icon.png",
 	"environment": "*",
 	"entrypoints": {},
