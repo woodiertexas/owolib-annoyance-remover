@@ -1,6 +1,6 @@
 {
 	"schemaVersion": 1,
-	"id": "owolib-annoyance-remover",
+	"id": "owolib_annoyance_remover",
 	"version": "${version}",
 	"name": "owo-lib Annoyance Remover",
 	"description": "Removes various owo-lib annoyances.",
@@ -9,14 +9,14 @@
 	],
 	"contact": {
 		"homepage": "",
-		"sources": "https://github.com/woodiertexas/owolib-annoyance-remover"
+		"sources": "https://github.com/woodiertexas/owolib_annoyance_remover"
 	},
 	"license": "MIT",
-	"icon": "assets/owolib-annoyance-remover/icon.png",
+	"icon": "assets/owolib_annoyance_remover/icon.png",
 	"environment": "*",
 	"entrypoints": {},
 	"mixins": [
-		"owolib-annoyance-remover.mixins.json"
+		"owolib_annoyance_remover.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.14.22",
