@@ -1,4 +1,4 @@
-package io.github.woodiertexas.mixin;
+package io.github.woodiertexas.owolib_annoyance_remover.mixin;
 
 import io.wispforest.owo.util.Wisdom;
 import org.spongepowered.asm.mixin.Mixin;
