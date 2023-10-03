@@ -1,9 +1,9 @@
 {
 	"schemaVersion": 1,
-	"id": "owolib_annoyance_remover",
+	"id": "owolib_patches",
 	"version": "${version}",
-	"name": "owo-lib Annoyance Remover",
-	"description": "Removes various owo-lib annoyances.",
+	"name": "owo-lib Patches",
+	"description": "Removes what I consider to be annoyances in owolib.",
 	"authors": [
 		"woodiertexas"
 	],
@@ -12,11 +12,11 @@
 		"sources": "https://github.com/woodiertexas/owolib-annoyance-remover"
 	},
 	"license": "MIT",
-	"icon": "assets/owolib_annoyance_remover/icon.png",
+	"icon": "assets/owolib_patches/icon.png",
 	"environment": "*",
 	"entrypoints": {},
 	"mixins": [
-		"owolib_annoyance_remover.mixins.json"
+		"owolib_patches.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.14.22",

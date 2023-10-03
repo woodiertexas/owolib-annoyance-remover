@@ -1,4 +1,4 @@
-package io.github.woodiertexas.owolib_annoyance_remover.mixin;
+package io.github.woodiertexas.owolib_patches.mixin;
 
 import com.mojang.blaze3d.platform.GlStateManager;
 import io.wispforest.owo.compat.rei.OwoReiPlugin;

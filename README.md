@@ -1,5 +1,5 @@
 # About
-This mod removes various annoyances found in owo-lib such as [advertisements in logs](https://github.com/wisp-forest/owo-lib/blob/1.20/src/main/java/io/wispforest/owo/util/Wisdom.java#L22) and [messing with REI UIs when "froge" is written](https://github.com/wisp-forest/owo-lib/blob/1.20/src/main/java/io/wispforest/owo/compat/rei/OwoReiPlugin.java#L139).
+This mod patches out what I consider to be annoyances in owo-lib such as [advertisements in logs](https://github.com/wisp-forest/owo-lib/blob/1.20/src/main/java/io/wispforest/owo/util/Wisdom.java#L22) and [messing with REI UIs when "froge" is written](https://github.com/wisp-forest/owo-lib/blob/1.20/src/main/java/io/wispforest/owo/compat/rei/OwoReiPlugin.java#L139).
 
 ## Why?
 Because I (and other people) have found advertising other mods in peoples' logs and the potentially seizure-inducing REI GUI easter egg to be annoying. There's also the poor conduct on the Wisp Forest devs' part largely in [Issue #174](https://web.archive.org/web/20231003000254/https://github.com/wisp-forest/owo-lib/issues/174) (and [its accompanying PR](https://web.archive.org/web/20231003064953/https://github.com/wisp-forest/owo-lib/pull/175/files)) and somewhat in [Issue #142](https://web.archive.org/web/20231003000552/https://github.com/wisp-forest/owo-lib/issues/142)
