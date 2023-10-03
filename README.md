@@ -3,11 +3,12 @@ This mod removes various annoyances found in owo-lib such as [advertisements in 
 
 ## Log adverts
 This should no longer show up in your minecraft logs.
-<insert image>
+![no more log adverts](https://github.com/woodiertexas/owolib-annoyance-remover/assets/17211100/6fa69797-92dc-4c9d-a403-318a2f0032e6)
+
 
 ## REI "easter egg" animation
 Now, if you enter `froge` into the REI searchbar, this animation no longer happens and your logs are no longer spammed with
 ```
 [23:44:21] [Render thread/INFO]: OpenGL debug message: id=1000, source=API, type=ERROR, severity=HIGH, message='glScissor has generated an error (GL_INVALID_VALUE)'
 ```
-<insert video>
+[no more annoying owolib animation](https://github.com/woodiertexas/owolib-annoyance-remover/assets/17211100/9d2bd159-8658-45b2-9af9-3490a43021e5)
