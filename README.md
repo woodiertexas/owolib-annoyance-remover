@@ -7,8 +7,11 @@ This should no longer show up in your minecraft logs. (Yes, [jello](https://modr
 
 
 ## REI "easter egg" animation
-Now, if you enter `froge` into the REI searchbar, this animation no longer happens and your logs are no longer spammed with
+Now, if you enter `froge` into the REI searchbar, this animation no longer happens and your logs are no longer spammed with the following errors
 ```
 [23:44:21] [Render thread/INFO]: OpenGL debug message: id=1000, source=API, type=ERROR, severity=HIGH, message='glScissor has generated an error (GL_INVALID_VALUE)'
+```
+```
+[19:07:17] [Render thread/INFO]: OpenGL debug message: id=1281, source=API, type=ERROR, severity=HIGH, message='GL_INVALID_VALUE error generated. Width and height must not be negative.'
 ```
 [no more annoying owolib animation](https://github.com/woodiertexas/owolib-annoyance-remover/assets/17211100/9d2bd159-8658-45b2-9af9-3490a43021e5)
